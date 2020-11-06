@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
                                "CLANG_CXX_LANGUAGE_STANDARD" => "c++14" }
 
   s.subspec "jscallinvoker" do |ss|
-    ss.source_files = "jscallinvoker/**/*.{cpp,h}"
+    ss.source_files = "ReactCommon/jscallinvoker/**/*.{cpp,h}"
 
     ss.dependency "React-cxxreact", version
     ss.dependency "DoubleConversion"
@@ -67,4 +67,3 @@ Pod::Spec.new do |s|
     end
   end
 end
-
